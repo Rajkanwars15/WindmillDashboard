@@ -16,7 +16,7 @@ A hackathon submission
 Clone the project
 
 ```bash
-  git clone https://github.com/Rajkanwars15/
+  git clone https://github.com/Rajkanwars15/WindmillDashboard
 ```
 
 Go to the project directory
