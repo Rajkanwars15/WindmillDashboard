@@ -9,6 +9,8 @@ A hackathon submission
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+<img src="https://raw.githubusercontent.com/h2oai/wave/master/assets/brand/wave-type-black.png" width="100px"></img>
 
 ## 🖥️ Run Locally
 
