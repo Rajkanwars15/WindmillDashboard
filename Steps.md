@@ -84,3 +84,9 @@ Navigation within plots not possible/might involve changes to the generated html
 - Set up a large language model (e.g., ChatGPT) to assist data scientists in generating similar dashboards from Jupyter notebook code. ❌
 ### Currently available LLM Models do not exactly 'understand' H2O Wave and generate buggy code. Debugging will be longer than the actual development. 
 ### Other tools which have a wider user base and thus more information publicly available, might be a better alternative for this stage
+### For all practical purposes, H2O itself provides GenAI services powered by ChatGPT under the hood, namely H2O Driverless AI which automates data science and machine learning workflows.
+Other examples include-
+- Enterprise h2oGPTe: An AI-powered chat assistant for information retrieval on your internal data
+- H2O GPT: Handles various NLP tasks such as text generation, summarization, and conversational interactions
+- H2O LLM Data Studio: Streamlines and facilitates data curation, preparation, and augmentation tasks for LLMs
+- H2O LLM Studio: A framework and no-code GUI designed for fine-tuning state-of-the-art LLMs
