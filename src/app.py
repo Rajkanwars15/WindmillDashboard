@@ -65,7 +65,7 @@ async def serve(q: Q):
         theme='neuralix-light',
     )
     q.page["header"] = ui.header_card(
-        box=("1 1 10 1"),
+        box=("1 1 12 1"),
         title='neuralix.ai',
         subtitle='',
         image='https://i.imgur.com/yThsZ40.png',
@@ -88,63 +88,70 @@ async def serve(q: Q):
         ]
     )
 
+    q.page['total_turbines'] = ui.small_stat_card(box=("1 2 2 1"), title='Total Turbines', value='110')
+    q.page['active'] = ui.small_stat_card(box=("3 2 2 1"), title='Active', value='100')
+    q.page['out_of_commission'] = ui.small_stat_card(box=("5 2 2 1"), title='Out of Commission', value='10')
+    q.page['healthy'] = ui.small_stat_card(box=("7 2 2 1"), title='Healthy', value='70')
+    q.page['predicted_failure'] = ui.small_stat_card(box=("9 2 2 1"), title='Predicted Failure', value='20')
+    q.page['down_for_repairs'] = ui.small_stat_card(box=("11 2 2 1"), title='Down for Repairs', value='10')
+
     q.page["monthly_sum_of_lv_activepower"] = ui.frame_card(
-        box=("1 2 10 5"),
+        box=("1 3 12 5"),
         title="",
         content=monthly_sum_of_lv_activepower,
     )
 
 
     q.page["difference_between_year_2_and_year_1_"] = ui.frame_card(
-        box=("1 7 10 5"),
+        box=("1 8 12 5"),
         title="",
         content=difference_between_year_2_and_year_1_,
     )
 
     q.page["gps_coordinates_visualization"] = ui.frame_card(
-        box=("1 12 5 5"),
+        box=("1 13 6 5"),
         title="",
         content=gps_coordinates_visualization,
     )
 
     q.page["quarterly_summary_of_changes"] = ui.frame_card(
-        box=("6 12 5 5"),
+        box=("7 13 6 5"),
         title="",
         content=quarterly_summary_of_changes,
     )
 
     q.page["mean_time_until_failure_by_machine_model"] = ui.frame_card(
-        box=("6 17 5 5"),
+        box=("7 18 6 5"),
         title="",
         content=mean_time_until_failure_by_machine_model,
     )
 
     q.page["top_3_root_causes_of_failure"] = ui.frame_card(
-        box=("1 22 10 5"),
+        box=("1 23 12 5"),
         title="",
         content=top_3_root_causes_of_failure,
     )
 
     q.page["failures_by_model"] = ui.frame_card(
-        box=("1 27 10 5"),
+        box=("1 28 12 5"),
         title="",
         content=failures_by_model,
     )
 
     q.page["time_series_data_with_threshold"] = ui.frame_card(
-        box=("1 32 10 5"),
+        box=("1 33 12 5"),
         title="",
         content=time_series_data_with_threshold,
     )
 
     q.page["stacked_time_series_plot"] = ui.frame_card(
-        box=("1 37 10 5"),
+        box=("1 38 12 5"),
         title="",
         content=stacked_time_series_plot,
     )
 
     q.page["turbine_bearings_status"] = ui.frame_card(
-        box=("1 42 10 5"),
+        box=("1 43 12 5"),
         title="",
         content=turbine_bearings_status,
     )
